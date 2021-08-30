@@ -179,15 +179,7 @@ e) Control State:Control state technique is developed to maintain data work prop
         }
     }    
               
-     Session state modes:
      
-     * InProc mode, which stores session state in memory on the Web server. This is the default.
-
-     * StateServer mode, which stores session state in a separate process called the ASP.NET state service.
-       This ensures that session state is preserved if the Web application is restarted and also makes session state available to multiple Web servers in a Web farm.
-
-     * SQLServer mode stores session state in a SQL Server database. This ensures that session state is preserved if the Web application is restarted and also makes session 
-       state available to multiple Web servers in a Web form. 
                    
   b) Application State: Application memory is common for all users. It is recommended to use application memory for storing data which is common for all users.
                        There is no timeout for application memory. Application memory will be existing forever in the webserver.
