@@ -21,14 +21,21 @@
 | InitComplete                                                  | This event occurs immediately after page initialization.                                            |
 |                                                               | Until this event occurs the viewstate values are not yet loaded,                                    |
 |                                                               | we can use this event to changes to the view state .                                                |                                                                                         
-| PreLoad                                                       | This event occurs just before the page load event.                                                  |                                                                                                                                           
+| PreLoad                                                       | This event occurs just before the page load event.                                                  |
+|                                                               |  In this event View State Data are loaded to the controls,Post Back data are also                   |   
+|                                                               |  handled by the Page contols.                                                                       |
+|                                                               |                                                                                                     |                                      
 | Load                                                          | page load event occurs before the load event of all individual controls on that web form            |                                                                                                                                          
 | Control Events                                                | After the page load event the control events like on button click, dropdown list events are raised  |                                                                                                                                         
 | Load Complete                                                 | This event occurs after the control events are handled.                                             |                                                                                                                                        
 | PreRender                                                     | This event occurs before the rendering stage of the page.                                           |                                                                                                                                         
 | PreRenderComplete                                             | This event occurs immediately after the prerender event.                                            |                                                                                                                                           
 | Unload                                                        | This event occurs for each control and then for the page.                                           |
-|                                                               |  At this stage the page is unloaded from memory.                                                    |                                                                                                                                                                                                                         
+|                                                               |  At this stage the page is unloaded from memory.                                                    |
+|                                                               |    This is the page cleaning process such as Instances cleaning or objects,                         |
+|                                                               |   closing the database connections ,closing the opened file.                                        |
+|                                                               |   We cant do manipulation at this stage.                                                            |
+                                                                                                                                    
 
 
 ###### public partial class PageLiftCycle: System.Web.UI.Page 
