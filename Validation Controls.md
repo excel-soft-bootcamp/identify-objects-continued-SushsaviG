@@ -46,7 +46,7 @@ Using RegularExpressionValidator server control, you can check a user's input ba
  For example, you can create a validation control that checks whether the value entered into a text box is 8 or more characters long.<br/> 
 #### <asp:CustomValidator ID="CustomValidator1" runat="server" ErrorMessage="CustomValidator"></asp:CustomValidator>
 
-## User Control
+# User Control
 
 - User controls are containers into which you can put markup and Web server controls.
 - UserControl file has .ascx extension.
