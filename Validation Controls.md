@@ -51,13 +51,5 @@ Using RegularExpressionValidator server control, you can check a user's input ba
  For example, you can create a validation control that checks whether the value entered into a text box is 8 or more characters long.<br/> 
 #### <asp:CustomValidator ID="CustomValidator1" runat="server" ErrorMessage="CustomValidator"></asp:CustomValidator>
 
-## User Controls
-
-- User controls are containers into which you can put markup and Web server controls.
-- UserControl file has .ascx extension.
-- An ASP.NET Web user control is similar to a complete ASP.NET Web page (.aspx file), with both a user interface page and code. 
-- You create the user control in much the same way you create an ASP.NET page
-- The user control does not have html, body, or form elements in it. These elements must be in the hosting page.
-- You can use the same HTML elements (except the html, body, or form elements) and Web controls on a user control.
 
  
