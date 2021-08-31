@@ -36,9 +36,9 @@ The RangeValidator control, which checks to see if a control value is within a v
 
 ### 4) RegularExpressionValidator Control
  
-A regular expression is a powerful pattern matching  that can be used to identify simple and complex characters sequence.<br/>
+A regular expression is a  pattern matching  that can be used to identify simple  sequence.<br/>
 Using RegularExpressionValidator server control, you can check a user's input based on a pattern that you define using a regular expression.<br/>
- exprssion can be phone number, email address.<br/>
+ expression can be phone number, email address.<br/>
 #### <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="RegularExpressionValidator"></asp:RegularExpressionValidator>
  
  ### 5) CustomValidator control
