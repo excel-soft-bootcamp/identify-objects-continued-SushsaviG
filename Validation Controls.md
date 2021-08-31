@@ -6,11 +6,6 @@ Validation is important part of any web application. User's input must always be
 - To validate user input data.
 - Data format, data type and data range is used for validation.
 
-#### Validation is of two types:<br/>
- 1. Client Side
-2. Serve Side<br/>
-Client side validation is considered convenient for users as they get instant feedback.<br/>
-
 ### There are six types of validation controls in ASP.NET 
 1) RequiredFieldValidator Control
 2) CompareValidator Control
